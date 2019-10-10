@@ -12,7 +12,8 @@ int main() {
 	// Mat frameHLS;
 	Mat upper_bound, lower_bound;
 	Mat filtered;
-
+	
+	// Window name
 	namedWindow("Stronghold Track");
 
 	// cvtColor(frame, frameHLS, CV_BGR2HLS);
